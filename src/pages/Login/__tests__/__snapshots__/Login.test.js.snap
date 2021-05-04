@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Login component renders Login without crashing 1`] = `
+<div
+  className="sc-bdvvaa gTCtOE"
+  role="login"
+  style={
+    Object {
+      "height": 400,
+      "position": "absolute",
+      "width": 400,
+    }
+  }
+>
+  <div
+    className="login-wrapper"
+  >
+    <h1>
+      Welcome back!
+    </h1>
+    <form
+      className="login-form"
+      onSubmit={[Function]}
+    >
+      <div
+        className="form-group"
+      >
+        <label
+          htmlFor="username"
+        >
+          <strong>
+            username 
+          </strong>
+          <input
+            id="username"
+            onChange={[Function]}
+            required={true}
+            type="text"
+          />
+        </label>
+      </div>
+      <div
+        className="form-group"
+      >
+        <label
+          htmlFor="password"
+        >
+          <strong>
+            password 
+          </strong>
+          <input
+            id="password"
+            onChange={[Function]}
+            required={true}
+            type="password"
+          />
+        </label>
+      </div>
+      <div>
+        <button
+          type="submit"
+        >
+          login
+        </button>
+        <button
+          onClick={[Function]}
+          type="button"
+        >
+          cancel
+        </button>
+      </div>
+    </form>
+  </div>
+</div>
+`;

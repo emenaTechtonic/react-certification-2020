@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Header component renders Header without crashing 1`] = `
+<div
+  className="sc-jRQAMF jaGnlL header"
+>
+  <div
+    className="header__hamburger__search"
+  >
+    <div
+      className="sc-gKckTs kqvsgi hamburger"
+      onClick={[Function]}
+    >
+      <span />
+      <span />
+      <span />
+    </div>
+    <div
+      className="sc-gsDJrp dLVeSJ"
+    >
+      <input
+        className="sc-bdvvaa gzIPOt"
+        onKeyDown={[Function]}
+        placeholder="Wizeline"
+        role="input"
+        type="text"
+      />
+    </div>
+  </div>
+  <div
+    className="header__theme__user"
+  >
+    <div
+      className="sc-dkPtyc SvsMR toggle"
+    >
+      <input
+        checked={false}
+        className="checkbox"
+        id="checkbox"
+        onChange={[Function]}
+        type="checkbox"
+      />
+      <label
+        className="switch"
+        htmlFor="checkbox"
+      >
+        <span
+          className="slider"
+        />
+      </label>
+      <div
+        className="named"
+      >
+        Dark mode
+      </div>
+    </div>
+    <div
+      className="sc-hKwCoD emvDmI header__user"
+    >
+      <div
+        className="popup login"
+      >
+        <ul>
+          <li>
+            Logout
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+`;

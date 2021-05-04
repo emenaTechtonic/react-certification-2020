@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Search component Renders Search without crashing 1`] = `
+<div
+  className="sc-gsDJrp dLVeSJ"
+>
+  <input
+    className="sc-bdvvaa gzIPOt"
+    onKeyDown={[Function]}
+    placeholder="Wizeline"
+    role="input"
+    type="text"
+  />
+</div>
+`;

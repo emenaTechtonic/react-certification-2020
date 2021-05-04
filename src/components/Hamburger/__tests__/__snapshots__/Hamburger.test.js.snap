@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Hamburger component renders Hamburger without crashing 1`] = `
+<div
+  className="sc-bdvvaa iriGUn hamburger"
+  onClick={[Function]}
+>
+  <span />
+  <span />
+  <span />
+</div>
+`;
