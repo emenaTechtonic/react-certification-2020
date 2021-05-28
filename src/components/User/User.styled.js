@@ -5,8 +5,7 @@ const StyledUser = styled.div.attrs({
 })`
   display: flex;
   cursor: pointer;
-  width: 2em;
-  height: 2em;
+
   position: relative;
   border-radius: 100px;
 

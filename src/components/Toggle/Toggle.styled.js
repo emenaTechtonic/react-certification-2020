@@ -41,6 +41,7 @@ const StyledToggle = styled.div.attrs({
     border-radius: 1em;
     position: relative;
     transition: background-color 0.1s;
+    margin: 1em;
     @media only screen and (max-width: 600px) {
       width: 2em;
     }
@@ -54,6 +55,8 @@ const StyledToggle = styled.div.attrs({
       border-radius: 1em;
       transition: 0s;
       background: #fff;
+      background-image: url('https://image.flaticon.com/icons/png/512/3050/3050031.png');
+      background-repeat: no-repeat;
       box-shadow: 0 0 2px 0 rgba(10, 10, 10, 0.29);
     }
   }

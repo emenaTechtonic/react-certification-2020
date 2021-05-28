@@ -21,7 +21,6 @@ const Toggle = React.memo(() => {
       <label className="switch" htmlFor="checkbox">
         <span className="slider" />
       </label>
-      <div className="named">Dark mode</div>
     </StyledToggle>
   )
 })

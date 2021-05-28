@@ -12,7 +12,7 @@ import { ContextReducer } from './reducer'
 export const Context = createContext(null)
 
 export const initialState = {
-  target: 'Wizeline',
+  target: 'Colorado',
   theme: false,
   menu: false,
   view: 'home',

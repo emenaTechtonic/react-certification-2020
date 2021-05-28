@@ -1,11 +1,12 @@
 import React, { useContext, useEffect, useState } from 'react'
 import { useHistory } from 'react-router-dom'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faUserAlt } from '@fortawesome/free-solid-svg-icons'
 import { Context } from '../../providers/Context/context'
 import { AuthContext } from '../../providers/Auth/auth'
 import Portal from '../Portal/Portal'
 import Login from '../../pages/Login/Login.page'
 
-const icoLink = 'https://i.pinimg.com/736x/3f/94/70/3f9470b34a8e3f526dbdb022f9f19cf7.jpg'
 const user = { id: 0, name: '', avatarUrl: '' }
 const Icon = React.memo(() => {
   const history = useHistory()
@@ -41,18 +42,7 @@ const Icon = React.memo(() => {
       dispatch({ type: 'OPEN_MENU', payload: false })
     }
     if (!state.user.id) {
-      setIconUser(
-        <img
-          src={icoLink}
-          alt={state.user.name}
-          width="30"
-          height="30"
-          className="loginUser"
-          onClick={handleClick}
-          onKeyDown={handleClick}
-          role="presentation"
-        />
-      )
+      setIconUser(<FontAwesomeIcon icon={faUserAlt} onClick={handleClick} />)
     } else {
       setIconUser(
         <img
